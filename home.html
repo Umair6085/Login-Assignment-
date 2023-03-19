@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Toastify  -->
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <!-- Bootstrap v3.5  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+
+    <!-- Custom CSS  -->
+    <link rel="stylesheet" href="styles/style2.css">
+    <title>Home</title>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark border rounded-0 border-0">
+            <div class="container d-block text-center">
+              <a class="navbar-brand text-black" href="#">Welcome to Home Page</a>
+            </div>
+          </nav>
+    </header>
+
+    <main class="flex-grow-1">
+
+        <div class="container">
+            <div class="row">
+                <div class="col mt-4">
+                    <h4 class="text-center">Hello👋 <span id="uName"></span></h4>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6 mb-3 mb-md-0 " style="height: 97.33px;">
+                    <h4 class="text-center">Input</h4>
+                    <div class="border border-dark rounded-3 p-4 d-flex align-items-center bgt" style="height: 123px;">
+                        <div class="input-group">
+                          <input type="text" class="form-control corm-control-lg bg-transparent border-dark" id="input" placeholder="Type Your Text Here">
+                          <button class="btn btn-outline-dark" id="clr">Clear</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <h4 class="text-center mt-5 mt-md-0">Already Listed Cities</h4>
+                    <div class="border border-dark rounded-3 p-4 bgt">
+                        <div class="text-center text-dark" id="original"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-12 col-md-6 mb-3 mb-md-0">
+                <h4 class="text-center">Buttons</h4>
+                   <div class="d-flex justify-content-center border border-dark rounded py-4 bgt">
+                       <div class="container d-flex flex-column gap-2 px-4">
+                          <button class="btn btng col-lg-12" id="btn5" type="button">Print All Cities</button>
+                          <button class="btn btng col-lg-12" id="btn6" type="button">Add Your City In List</button>
+                       </div>
+                   </div>
+                </div>
+                <div class="col-12 col-md-6 mb-3 mb-md-0">
+                    <h4 class="text-center">Output / Result</h4>
+                    <div class="d-flex justify-content-center align-items-center border border-dark rounded py-4 bgt" style="height: 268px;">
+                        <span id="result"></span>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center">
+                    <button class="btn btn-outline-danger mt-3" id="ClearResult">Clear Result</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="mt-5">
+        <span class="d-flex justify-content-center py-2 text-black bgt">&copy; 2023 All Rights Reserved to Umair</span>
+    </footer>
+
+
+
+
+
+
+
+    <!-- Toastify JS  -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <!-- Bootstrap JS  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS  -->
+    <script src="js/home.js"></script>
+</body>
+</html>
